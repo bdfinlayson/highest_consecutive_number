@@ -1,13 +1,6 @@
 require 'pry'
 
 class HighestNumber
-  # iterate through input
-  # add each item to create a new sum
-  # compare new sum with previous sum
-  # check if is at end of array
-  # if new sum is larger, continues to next item
-  # if it is smaller, return
-  # continue to next positive and start the process over till end of array is reached
 
   def initialize
     @prev_sum = 0
